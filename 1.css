@@ -1,0 +1,87 @@
+body{
+margin: 40px;
+background-image: linear-gradient(90deg,lightblue,lightgreen);
+}
+#container
+{
+    border: 2px solid black;
+    width: 50%;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+#additem
+{
+    border: 1px solid black;
+    width: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    margin: 10px;
+    background-color:lightgray;
+
+}
+.status
+{
+    display: flex;
+    justify-content: space-between;
+}
+#list li
+{
+    list-style: circle;
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 10px;
+}
+ul li:hover
+{
+  display: block;
+    
+}
+ul li:hover .btn
+{
+    display: block;
+}
+.btn
+{
+   display: none;
+}
+.btn:hover
+{
+    background-color: red;
+    display: block;
+}
+.btn
+{
+    border:2px solid black;
+    border-radius: 50%;
+    color:black;
+    background: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1;
+    
+
+
+}
+.align
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: -25px;
+}
+.footer
+{
+    display: flex;
+    justify-content: space-around;
+}
+#completed a{
+    text-decoration: none; 
+    color: black;
+}
+#completed a:hover
+{
+    text-decoration: underline;
+    color: pink;
+}
