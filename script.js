@@ -3,23 +3,21 @@ var addul=document.getElementById('list');
 var count=0;
 var ar=[];
 
-addList.addEventListener('keypress',function(e){
-    if(!this.value)
+addList.addEventListener('click',function(e){
+    if(!document.getElementById('add').value)
     {
         return;
     }
-    if(e.key==='Enter')
-    {
-        var item=this.value;
+        var item=document.getElementById('add').value;
         var elem=document.createElement("li");
         elem.innerHTML=item+"<span class='align'><button class='btn'>X</button></span>";
         addul.appendChild(elem);
-        this.value="";
+        document.getElementById('add').value="";
         count++;
         elem.addEventListener('click',del);
         
 
-    }    
+        
     if(count===0)
     {
         return;
