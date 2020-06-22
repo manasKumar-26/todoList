@@ -9,7 +9,7 @@ background-image: linear-gradient(90deg,lightblue,lightgreen);
     border-radius: 15px;
     background-color: cadetblue;
 }
-#additem
+.add
 {
     border: 1px solid black;
     width: 80%;
@@ -19,6 +19,18 @@ background-image: linear-gradient(90deg,lightblue,lightgreen);
     font-size: 20px;
     margin: 10px;
     background-color:lightgray;
+
+}
+#additem
+{
+    border: 1px solid black;
+    width: 30%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 20px;
+    margin: 10px;
+    background-color:rgb(126, 59, 59);
 
 }
 .status
